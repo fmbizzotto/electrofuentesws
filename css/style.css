@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+#isologo 
+{
+	 color: #1A92CE;
+}
+
+#isotipo 
+{
+	height: 30px;
+	width: 30px;
+}
+
+#presentacion
+{
+	background-image: url("../images/cover.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: black;
+	height: 400px;
+}
+
+#bienvenida
+{
+	max-width: 450px;
+	background-color:rgba(0,0,0,0.50)	
+}
+
+#servicios
+{
+	margin-top: 3em;
+	margin-bottom: 3em;
+	padding: 3em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#servicios h1
+{
+	color: #212529;
+}
+
+.servicio
+{
+	text-align: center;
+}
+
+#acciones
+{
+	position: relative;
+}
+
+#acciones img
+{
+	width: 100%;
+	background-color: gray;
+}
+
+.accion
+{
+	padding: 5px;
+}
+
+#destacado
+{
+	margin-top: 3em;
+	margin-bottom: 3em;
+	background-color: lightgray;
+	background-image: url("../images/solar.jpg");
+	background-position: center;
+	height: 400px;
+	background-repeat: no-repeat;
+}
+
+#destacado>div
+{
+	max-width: 450px;
+	background-color:rgba(255,255,255,0.40)
+}
+
+#contactos
+{
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.contacto
+{
+	margin-bottom: 2em;
+}
+
+.contacto h5
+{
+	margin-bottom: 1em;
+}
+
+.footer
+{
+	background-color: lightgray;
+	margin-top: 30px;
+}
